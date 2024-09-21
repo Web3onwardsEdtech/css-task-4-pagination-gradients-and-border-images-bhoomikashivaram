@@ -1,1 +1,61 @@
+.paging {
+    text-align: center;
+    margin-top: 90px;
+}
+.paging a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+}
+.paging a.active{
+    background-color: rgba(235, 62, 62, 0.822);
+    border-radius: 5px;
+    font-weight: bolder;
+
+}
+.paging a:hover:not(.active){
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+h3{
+    text-align: center;
+}
+.linear-gradient {
+    height: 150px;
+    background: linear-gradient( to right, pink , blue);
+   color: white;
+   padding: 20px;
+    
+}
+.radial-gradient{
+    height:150px;
+    background-image: radial-gradient(rgb(34, 245, 7) 10%,white 90% );
+    padding: 20px;
+}
+.repeating-gradients{
+    height: 150px;
+    background-image: repeating-linear-gradient( to top right, yellow,yellow 5px,white 5px,white 10px);
+   color: rgb(0, 0, 0);
+   padding: 20px;
+}
+.repeating-radial-gradients{
+    height: 150px;
+    background-image: repeating-radial-gradient(rgb(235, 19, 109),
+    rgb(235, 19, 109),
+    white 15px,
+    white 30px
+    
+  );
+  padding: 20px;
+   color: rgb(0, 0, 0);
+}
+.bordering{
+    
+        border: 10px solid transparent;
+        border-image-source: url('border.png') ;
+        border-image-slice: 30;
+        border-image-width: 10px;
+        border-image-repeat: round
+    }
 
