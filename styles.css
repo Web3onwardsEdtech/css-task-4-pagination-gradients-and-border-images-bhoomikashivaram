@@ -30,7 +30,7 @@ h3{
 }
 .radial-gradient{
     height:150px;
-    background-image: radial-gradient(rgb(34, 245, 7) 10%,white 90% );
+    background-image: radial-gradient(rgb(37, 241, 10) 10%,white 90% );
     padding: 20px;
 }
 .repeating-gradients{
@@ -41,7 +41,7 @@ h3{
 }
 .repeating-radial-gradients{
     height: 150px;
-    background-image: repeating-radial-gradient(rgb(235, 19, 109),
+    background-image: repeating-radial-gradient(rgb(245, 13, 110),
     rgb(235, 19, 109),
     white 15px,
     white 30px
